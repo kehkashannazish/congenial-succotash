@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f1f3f6;
+}
+
+/* NAVBAR */
+header {
+  background: #2874f0;
+  color: white;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+header input {
+  padding: 8px;
+  width: 300px;
+  border: none;
+  border-radius: 3px;
+}
+
+header button {
+  padding: 8px 12px;
+  background: orange;
+  border: none;
+  cursor: pointer;
+}
+
+.cart {
+  margin-left: auto;
+}
+
+/* BANNER */
+.banner {
+  background: url("https://via.placeholder.com/1200x200") no-repeat center;
+  background-size: cover;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+/* PRODUCTS */
+.products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.product {
+  background: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.product img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.product button {
+  margin-top: 10px;
+  padding: 8px;
+  background: #2874f0;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
