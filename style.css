@@ -1,17 +1,19 @@
 body {
   margin: 0;
   font-family: Arial;
-  background: #f1f3f6;
+  background: #1a1a1a;
+  color: #e0e0e0;
 }
 
 /* NAVBAR */
 header {
-  background: #2874f0;
+  background: #000000;
   color: white;
   padding: 15px;
   display: flex;
   align-items: center;
   gap: 15px;
+  border-bottom: 2px solid #333333;
 }
 
 .logo {
@@ -24,13 +26,16 @@ header input {
   width: 300px;
   border: none;
   border-radius: 3px;
+  background: #2a2a2a;
+  color: #e0e0e0;
 }
 
 header button {
   padding: 8px 12px;
-  background: orange;
+  background: #ff9800;
   border: none;
   cursor: pointer;
+  font-weight: bold;
 }
 
 .cart {
@@ -39,7 +44,7 @@ header button {
 
 /* BANNER */
 .banner {
-  background: url("https://via.placeholder.com/1200x200") no-repeat center;
+  background: linear-gradient(135deg, #000000 0%, #333333 100%);
   background-size: cover;
   height: 200px;
   display: flex;
@@ -57,10 +62,11 @@ header button {
 }
 
 .product {
-  background: white;
+  background: #2a2a2a;
   padding: 10px;
   text-align: center;
   border-radius: 5px;
+  border: 1px solid #404040;
 }
 
 .product img {
@@ -72,8 +78,9 @@ header button {
 .product button {
   margin-top: 10px;
   padding: 8px;
-  background: #2874f0;
+  background: #ff9800;
   color: white;
   border: none;
   cursor: pointer;
+  font-weight: bold;
 }
